@@ -1,0 +1,44 @@
+li{
+    list-style: none;
+    background-color: greenyellow;
+    padding: 5px;
+    display: block;
+   
+    color: red;
+}
+.products{
+    color: red;
+    
+}
+input{
+    /* outline: none; */
+    /* border: none; */
+    
+    border-top: rgb(14, 10, 7);
+    border-left: rgb(240, 137, 59);
+    border-right: rgb(14, 10, 7);
+    /* border-bottom: rgb(14, 10, 7); */
+    border-color: goldenrod;
+}
+input:hover{
+
+     border-bottom: rgb(14, 10, 7);
+     outline-offset: 5px;
+    
+}
+button{
+    display: block;
+    padding: 7px;
+    background-color: rgb(1, 1, 2);
+    border-radius: 12px;
+    border: 0px;
+    color: rgba(246, 248, 246, 0.753);
+    cursor: pointer;
+    margin-top:6px;
+}
+.producted{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
